@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        tools:context=".MainActivity" android:id="@+id/button" android:orientation="vertical"
+>
+    <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="@string/welcome_context"
+              android:textAlignment="center"
+              android:textSize="30dp"
+              android:cursorVisible="false"
+
+
+    />
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+
+        <EditText
+                android:layout_marginTop="30dp"
+                android:layout_width="235dp"
+                android:layout_height="50dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:id="@+id/phone_number"
+                android:gravity="start"
+                android:layout_marginLeft="22dp"
+                android:hint="Phone Number"
+                android:background="@android:color/white"
+
+
+                android:textCursorDrawable="@null"
+                android:inputType="numberDecimal"
+        />
+        <Button
+                android:text="Choose Contacts"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content" android:id="@+id/contacts"
+                android:baselineAligned="false"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="20dp"
+
+        />
+    </LinearLayout>
+        <EditText
+                android:layout_marginTop="15dp"
+                android:id="@+id/edittext"
+                android:layout_marginLeft="22dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:textSize="15sp"
+                android:textStyle="normal"
+
+                android:gravity="start"
+
+                android:hint="Write Notice"
+                android:background="@android:color/white"
+
+
+                android:textCursorDrawable="@null"
+                android:inputType="textImeMultiLine"
+        />
+
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="300dp">
+        <Button
+
+                android:id="@+id/manual"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+
+                android:layout_marginLeft="22dp"
+                android:text="Send Manually"
+
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:background="@android:color/holo_blue_light"
+
+
+        />
+
+
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="100dp"
+            android:text="Send for selected contacts"
+
+            android:textAllCaps="false"
+            android:background="@android:color/holo_blue_light"
+
+
+
+    />
+    </LinearLayout>
+
+
+
+</LinearLayout>

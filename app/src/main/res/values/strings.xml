@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SMS Sender</string>
+    <string name="welcome_context">welcome to the sms sender app
+                                    \nwrite notice here</string>
+</resources>
